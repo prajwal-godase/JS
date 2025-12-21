@@ -51,8 +51,59 @@
 // // "aaaa"=>true
 // // ""=>false
 
-let someNumber=33
-let stringSomeNumber=String(someNumber)
-console.log(stringSomeNumber)
-console.log(typeof stringSomeNumber)
+// let someNumber=33
+// let stringSomeNumber=String(someNumber)
+// console.log(stringSomeNumber)
+// console.log(typeof stringSomeNumber)
 
+/*************Operations******************/
+// let value =3
+// let negValue=-value
+// console.log(negValue)
+
+// console.log(2+2)
+// console.log(2-2)
+// console.log(2*2)
+// console.log(2/2)
+// console.log(3**2)
+// console.log(2%2)
+
+// let str1="Prajwal"
+// let str2=" Godase"
+// let str3=str1+str2
+// console.log(str3);
+
+// console.log(1+"2");
+// console.log("1"+2);
+
+// //Numbers before the string are treated as numbers 
+// //And the numbers after the string are treated as the strings
+// console.log("1"+2+2); 
+// console.log(1+2+"2");
+// console.log(1+1+"2"+2);
+
+// console.log(true); // gives output true
+// console.log(+true); // (Converting boolean to number) gives output 1
+// //console.log(true+); // Not allowed
+
+// console.log(""); // gives empty space as output
+// console.log(+""); // (Converting boolean to number) gives output 0
+
+// let num1,num2,num3
+// num1=num2=num3=num=2+2 // Not recommended
+
+// let gameCounter=100
+// gameCounter++; // Increment operator
+// console.log(gameCounter)
+
+// Prefix increment (++a)
+let a=100
+let b=(++a)+50 // First increment and then addition
+console.log(a) // output=101
+console.log(b) // output=151 (i.e. 101+50)
+
+// Postfix increment (a++)
+let c=100
+let d=(c++)+50 // First Addition and then increment
+console.log(c) // output=101
+console.log(d) // output=150 (i.e. 100+50)
