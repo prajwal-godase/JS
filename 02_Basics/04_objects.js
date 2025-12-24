@@ -47,13 +47,41 @@ const users=[
     }
 ]
 
-// When we access the data from the database
-console.log(users[1].email)
+// // When we access the data from the database
+// console.log(users[1].email)
 
-console.log(tinderUser)
+// console.log(tinderUser)
 
-console.log(Object.keys(tinderUser)) // output is given as array
-console.log(Object.values(tinderUser)) // output is given as array
-console.log(Object.entries(tinderUser)) // output is given as array
+// console.log(Object.keys(tinderUser)) // output is given as array
+// console.log(Object.values(tinderUser)) // output is given as array
+// console.log(Object.entries(tinderUser)) // output is given as array
 
-console.log(tinderUser.hasOwnProperty("isLoggedIn"));
+// console.log(tinderUser.hasOwnProperty("isLoggedIn"));
+
+
+// Destructuring
+
+const course={
+    name:"Javascript",
+    price:"999",
+    instructor:"Hitesh"
+}
+
+// course.instructor //normal way to access
+
+const {instructor:instr}=course // For accessing multiple times
+console.log(instr) // Just  print this because of the above line
+
+
+// for react-
+// const navbar=({company})=>{
+// }
+// navbar(compay="prajwal")
+
+//JSON format
+// {
+//     name:"Prajwal",
+//     courseName:"JS",
+//     price:"Free"
+// }
+
