@@ -84,4 +84,3 @@ console.log(instr) // Just  print this because of the above line
 //     courseName:"JS",
 //     price:"Free"
 // }
-
